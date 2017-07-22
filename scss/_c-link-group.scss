@@ -1,0 +1,9 @@
+.c-link-group {
+    text-align: center;
+}
+
+.c-link-group__link {
+    background-color: $g-color-blue;
+    padding: rem($g-spacing-large);
+    width: auto;
+}
