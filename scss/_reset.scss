@@ -1,0 +1,16 @@
+/* Reset (Make browsers behave the same)
+===================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: $g-font-size / 16 * 1em;
+}
+
+ul,
+ol {
+    list-style: none;
+}
