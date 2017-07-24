@@ -1,9 +1,20 @@
-.c-link-group {
-    text-align: center;
-}
-
 .c-link-group__link {
     background-color: $g-color-blue;
-    padding: rem($g-spacing-large);
-    width: auto;
+    border: 1px solid $g-color-blue;
+    border-radius: $g-border-radius;
+    color: $g-color-white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: rem($shell-g-spacing);
+    min-width: 80%;
+    padding: rem($shell-g-spacing);
+    text-align: center;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        background-color: $g-color-white;
+        color: $g-color-blue;
+        transition: background-color 0.2s ease-in, color 0.2s ease-in;
+    }
 }

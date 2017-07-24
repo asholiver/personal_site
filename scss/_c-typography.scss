@@ -1,0 +1,19 @@
+.c-text-title,
+.c-text-sub-title,
+.c-text-additional-info,
+.c-text-summary {
+    text-align: center;
+}
+
+.c-text-title {
+    font-size: rem($shell-g-font-size-2x-large);
+}
+
+.c-text-sub-title {
+    font-size: rem($shell-g-font-size-large);
+}
+
+.c-text-additional-info {
+    font-size: rem($shell-g-font-size-2x-small);
+    font-style: italic;
+}

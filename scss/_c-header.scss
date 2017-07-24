@@ -1,0 +1,33 @@
+.c-header {
+    background-color: $g-color-blue;
+    color: $g-color-white;
+    padding: rem($shell-g-spacing-2x-large);
+    text-align: center;
+}
+
+.c-header__title,
+.c-header__sub-title {
+    color: $g-color-white;
+}
+
+.c-header__title {
+    font-size: rem($shell-g-font-size-4x-large);
+}
+
+.c-header__sub-title {
+    font-size: rem($shell-g-font-size-large);
+}
+
+.c-header-photo {
+    border: 2px solid $g-color-white;
+    border-radius: 50%;
+    height: rem($shell-g-spacing-6x-large + $shell-g-spacing-2x-large);
+}
+
+.c-main {
+    background-color: $g-color-white;
+}
+
+.c-footer {
+    background-color: $g-color-grey;
+}

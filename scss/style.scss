@@ -3,18 +3,12 @@
 
 @import 'settings';
 
-@import 'functions';
+@import '../node_modules/shell-csslib/src/shell';
 
-@import 'media-queries';
-
-@import 'helpers';
-
-@import 'reset';
-
-@import 'main';
-
-@import 'layout/grid';
-
-@import 'layout/container';
+@import 'c-typography';
 
 @import 'c-link-group';
+
+@import 'c-header';
+
+@import 'c-footer';

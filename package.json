@@ -19,6 +19,7 @@
     "onchange": "^2.2.0",
     "parallelshell": "^2.0.0",
     "postcss-cli": "^2.5.1",
+    "shell-csslib": "^2.1.0",
     "stylelint": "^6.3.3"
   }
 }
