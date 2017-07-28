@@ -1,3 +1,8 @@
+/* ============================================================================
+   TYPOGRAPHY
+   ========================================================================= */
+
+
 .c-text-title,
 .c-text-sub-title,
 .c-text-additional-info,
@@ -10,7 +15,22 @@
 }
 
 .c-text-sub-title {
-    font-size: rem($shell-g-font-size-large);
+    color: $g-color-grey;
+    font-size: rem($shell-g-font-size);
+    font-weight: 300;
+    letter-spacing: rem(1);
+    text-transform: uppercase;
+}
+
+.c-code-tag {
+    color: $g-color-grey;
+    font-weight: 300;
+    margin-left: rem($shell-g-spacing-2x-small);
+    margin-right: rem($shell-g-spacing-2x-small);
+}
+
+.c-code-tag--light {
+    color: rgba($g-color-white, 0.8);
 }
 
 .c-text-additional-info {

@@ -1,7 +1,16 @@
+/* ============================================================================
+   FOOTER
+   ========================================================================= */
+
+.c-footer {
+    background-color: $g-color-grey-light;
+    padding-top: rem($shell-g-spacing-2x-large);
+}
+
 .c-footer-link-group {
     display: flex;
     justify-content: space-around;
-    margin-bottom: rem($shell-g-spacing-large);
+    margin-bottom: rem($shell-g-spacing-2x-large);
 }
 
 .c-footer--svg-border {
@@ -29,6 +38,7 @@
 .c-footer--copyright {
     align-items: center;
     display: flex;
+    font-size: rem($shell-g-font-size-2x-small);
     justify-content: center;
     padding-bottom: rem($shell-g-spacing-2x-small);
 }
@@ -40,6 +50,3 @@
     width: rem($shell-g-spacing-small);
 }
 
-.c-footer--copyright-text {
-    font-size: rem($shell-g-font-size-2x-small);
-}
