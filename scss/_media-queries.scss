@@ -1,17 +1,9 @@
 /* ============================================================================
-   HELPERS
+   MEDIA QUERIES
    ========================================================================= */
 
-.h-text-lowercase {
-    text-transform: lowercase;
-}
-
-.h-media-spacing {
-    margin-bottom: rem($shell-g-spacing);
-}
-
 @media (min-width: 75em) {
-    .h-media-spacing {
-        margin-bottom: 0;
+    .l-grid__item--6-col-from-desk {
+        width: 50% !important;
     }
 }

@@ -2,6 +2,17 @@
    LINK GROUP
    ========================================================================= */
 
+
+.c-link-group-container {
+    display: flex;
+    flex-direction: column;
+    width: rem(432);
+}
+
+.c-link-group {
+    display: flex;
+}
+
 .c-link-group__link {
     background-color: $g-color-blue;
     border: 1px solid $g-color-blue;
@@ -9,8 +20,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: rem($shell-g-spacing);
-    min-width: 80%;
-    padding: rem($shell-g-spacing);
+    padding: rem($shell-g-spacing) 0;
     text-align: center;
     text-decoration: none;
 
@@ -30,8 +40,19 @@
     }
 }
 
-
 .c-link-group__link--small {
-    margin-right: rem(16);
-    min-width: 48%;
+    flex-grow: 1;
+
+    &:not(:last-child) {
+        margin-right: rem(16);
+    }
+}
+
+.c-link-group__photo {
+    border: 1px solid $g-color-grey;
+    border-top-left-radius: $g-border-radius;
+    border-top-right-radius: $g-border-radius;
+    height: rem(200);
+    margin-bottom: rem($shell-g-font-size-small);
+    width: auto;
 }
