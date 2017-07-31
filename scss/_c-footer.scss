@@ -50,3 +50,22 @@
     width: rem($shell-g-spacing-small);
 }
 
+.l-container-from-mobile {
+    display: block;
+    max-width: rem($shell-container-maximum-width-large);
+    min-width: rem($shell-container-minimum-width);
+    padding-left: rem($shell-container-gutter);
+    padding-right: rem($shell-container-gutter);
+    width: 100%;
+
+    @if $shell-container-apply-center-alignment {
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 75em) {
+    .l-container-from-lap {
+        max-width: rem($shell-container-maximum-width);
+    }
+}
