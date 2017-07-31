@@ -1,11 +1,16 @@
-# SCSS Boiler plate
+# PERSONAL WEBSITE
 
-I am a boilerplate for SCSS
+Personal site to show coding ability, current employment and availability.
 
-`ctrl c`
+## Development
 
-`npm install`
+1. Clone this repo
+2. Open up a terminal window
+3. Drag project folder and drop into terminal
+4. Run `npm install`
+5. Run `npm start`
 
-`npm start`
-
-Change `package.json` name and description.
+## Technologies
+* HTML5
+* SCSS
+* SVG

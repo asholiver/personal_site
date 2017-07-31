@@ -1,6 +1,6 @@
 {
-  "name": "ProjectName",
-  "description": "ProjectName Description",
+  "name": "AshleyOliverPersonalWebsite",
+  "description": "Personal site for Ashley Oliver. Front end developer",
   "version": "1.0.0",
   "scripts": {
     "compile-scss": "node-sass --source-map true --output-style compressed -o css scss/style.scss",
