@@ -3,18 +3,18 @@
    ========================================================================= */
 
 
-.c-text-title,
-.c-text-sub-title,
-.c-text-additional-info,
-.c-text-summary {
+.c-title,
+.c-sub-title,
+.c-additional-info,
+.c-summary {
     text-align: center;
 }
 
-.c-text-title {
+.c-title {
     font-size: rem($shell-g-font-size-2x-large);
 }
 
-.c-text-sub-title {
+.c-sub-title {
     color: $g-color-grey;
     font-size: rem($shell-g-font-size);
     font-weight: 300;
@@ -33,7 +33,7 @@
     color: rgba($g-color-white, 0.8);
 }
 
-.c-text-additional-info {
+.c-additional-info {
     font-size: rem($shell-g-font-size-2x-small);
     font-style: italic;
 }
