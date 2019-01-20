@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: rem(432);
+    max-width: rem(450);
+    width: 100%;
 }
 
 .c-link-group {
@@ -22,7 +23,6 @@
     justify-content: center;
     margin-bottom: rem($shell-g-spacing);
     padding: rem($shell-g-spacing) 0;
-    text-align: center;
     text-decoration: none;
 
     &:hover,
@@ -45,7 +45,7 @@
     flex-grow: 1;
 
     &:not(:last-child) {
-        margin-right: rem(16);
+        margin-right: rem($shell-g-spacing);
     }
 }
 
@@ -55,5 +55,5 @@
     border-top-right-radius: $g-border-radius;
     height: rem(200);
     margin-bottom: rem($shell-g-font-size-small);
-    width: auto;
 }
+

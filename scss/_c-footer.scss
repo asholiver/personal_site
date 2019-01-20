@@ -44,14 +44,12 @@
 }
 
 .c-footer__copyright-svg {
-    display: block;
     height: rem($shell-g-spacing-small);
     margin-right: rem($shell-g-spacing-x-small);
     width: rem($shell-g-spacing-small);
 }
 
 .l-container-from-mobile {
-    display: block;
     max-width: rem($shell-container-maximum-width-large);
     min-width: rem($shell-container-minimum-width);
     padding-left: rem($shell-container-gutter);
